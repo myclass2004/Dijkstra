@@ -103,6 +103,7 @@ class Dijkstra():
                     horizontalalignment='center',
                     transform=plt.gca().transAxes)
         plt.axis('off')
+        plt.ion()
         plt.show()
     
     def set_labels(self):
